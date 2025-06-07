@@ -3,8 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=1024" />
-        <title>MintyGDPS Demonlist</title>
-        
+        <title>Your List Name</title>
         <link rel="icon" href="/list_icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,11 +15,19 @@
         <link rel="stylesheet" type="text/css" href="/css/typography.css" />
         <link rel="stylesheet" type="text/css" href="/css/main.css" />
         <link rel="stylesheet" type="text/css" href="/css/pages/list.css" />
-        <link rel="stylesheet" type="text/css" href="/css/pages/leaderboard.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="/css/pages/leaderboard.css"
+        />
         <link rel="stylesheet" type="text/css" href="/css/pages/roulette.css" />
         <link rel="stylesheet" type="text/css" href="/css/components/nav.css" />
         <link rel="stylesheet" type="text/css" href="/css/components/btn.css" />
-        <link rel="stylesheet" type="text/css" href="/css/components/tabs.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="/css/components/tabs.css"
+        />
         <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js"></script>
         <script src="https://unpkg.com/vue-router@4.0.14/dist/vue-router.global.prod.js"></script>
         <script type="module" src="/js/main.js"></script>
@@ -28,7 +35,8 @@
     <body id="app">
         <header :class="{ dark: store.dark }">
             <div class="logo">
-                <h2>MGDPS Demonlist</h2>
+                <h2>Sample List</h2>
+                <p>v1.0.0</p>
             </div>
             <nav class="nav">
                 <router-link class="nav__tab" to="/">
@@ -40,13 +48,6 @@
                 <router-link class="nav__tab" to="/roulette">
                     <span class="type-label-lg">Roulette</span>
                 </router-link>
-                <a
-                    class="nav__tab"
-                    href="https://docs.google.com/document/d/156nPkRBkQucuQlsllElHHPPYsyOW9l6xsbeBq3sJIks/edit?usp=sharing"
-                    target="_blank"
-                    rel="noopener">
-                    <span class="type-label-lg">Changelog</span>
-                </a>
                 <div class="nav__actions">
                     <button
                         class="nav__icon"
@@ -57,12 +58,12 @@
                             alt=""
                         />
                     </button>
-                    <a class="nav__icon" href="https://discord.gg/jQ6kRpWtWw">
+                    <a class="nav__icon" href="#">
                         <img src="/assets/discord.svg" alt="Discord Logo" />
                     </a>
                     <a
                         class="nav__cta type-label-lg"
-                        href="https://forms.gle/P86PymkBtyowdm3w5"
+                        href="#"
                         target="_blank"
                         >Submit Record</a
                     >
