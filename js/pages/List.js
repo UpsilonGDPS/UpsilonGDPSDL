@@ -93,20 +93,28 @@ export default {
                     </template>
                     <h3>Submission Rules</h3>
                     <p>
-                        Video proof is required for Top 30 Demons.
+                        FPS Bypass is allowed up to 360 FPS.
+                        CBF is allowed, but you should write 'CBF Used'.
                     </p>
                     <p>
-                        Cheat indicator is required if a modmenu with the feature is being used.
+                        Cheat Indicator is required if you're using a mod menu that supports one.
+                        (Unless you're playing without Geode.)
                     </p>
                     <p>
-                        The level complete endscreen must be shown.
+                        End Stats is required.
                     </p>
                     <p>
-                        Physics Bypass is NOT allowed.
+                        Clicks are required. If no clicks appear in the recording, click counter label is required.
+                        (Fake clicks or clicks mod is not allowed. Clicks should only come from your microphone.)
+                        (Mobile Taps, Mobile PLayers is included.)
                     </p>
                     <p>
-                        CBF and FPS/TPS bypass are allowed.
+                        Raw footage is required. Your raw footage must be unedited.
+                        (Include clicks.)
                     </p>
+                    <p>
+                        Physic Bypass or TPS Bypass like hacks, your records will denied and you'll banned.
+                        We'll show why your records are denied.
                 </div>
             </div>
         </main>
